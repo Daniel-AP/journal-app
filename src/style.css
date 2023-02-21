@@ -1,0 +1,58 @@
+::selection{
+    background-color: #dfdfdf;
+    color: black;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #dfdfdf !important;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #a4a4a4 !important;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #434343 !important;
+}
+
+.box-shadow{
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+body, html, div#root {
+    height: 100%;
+}
+
+a{
+    color: black;
+}
+ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.disabled{
+    pointer-events: none;
+    user-select: none;
+    cursor: initial;
+}
+
+.visible-icon-hover button {
+
+    transition: all .2s;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.visible-icon-hover:hover button {
+
+    visibility: visible;
+    opacity: 1;
+
+}
